@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beautyness</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logoAndTel">
+            <div class="logo"><img src="./images/logo.svg" alt="logo" /></div>
+            <div class="tel">
+              <img src="./images/phoneIcon.svg" alt="" />
+              <a href="tel:(+22)1234567890"> Call Us - (+22) 123 456 7890 </a>
+            </div>
+          </div>
+          <div class="links">
+            <div class="pageLinks">
+              <a href="./index.html">Home</a>
+              <a href="#">Pages</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Contact</a>
+            </div>
+            <div class="socialMedia">
+              <a href="#"><img src="./images/fbIcon.svg" alt="fb" /></a>
+              <a href="#"><img src="./images/twitterIcon.svg" alt="twit" /></a>
+              <a href="#"><img src="./images/linkedinIcon.svg" alt="in" /></a>
+            </div>
+            <div class="reserv">
+              <img src="./images/reservationIcon.svg" alt="reservation" />
+              <a href="#"> RESERVATION </a>
+            </div>
+          </div>
+          <div class="bars" id="bars">
+            <img src="./images/bars.svg" alt="bars" id="barsImage" />
+          </div>
+        </nav>
+        <!-- nav end -->
+      </div>
+      <!-- container end -->
+    </header>
+    <!-- header end -->
+
+    <div class="mobileNav" id="mobileNav">
+      <div class="pageLinks">
+        <a href="./index.html">Home</a>
+        <a href="#">Pages</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="socialMedia">
+        <a href="#"><img src="./images/fbIcon.svg" alt="fb" /></a>
+        <a href="#"><img src="./images/twitterIcon.svg" alt="twit" /></a>
+        <a href="#"><img src="./images/linkedinIcon.svg" alt="in" /></a>
+      </div>
+      <div class="reserv">
+        <img src="./images/reservationIcon.svg" alt="reservation" />
+        <a href="#"> RESERVATION </a>
+      </div>
+    </div>
+
+    <script>
+      bars.onclick = function () {
+        if (barsImage.src.includes("bars.svg")) {
+          barsImage.src = "./images/times.svg";
+        } else {
+          barsImage.src = "./images/bars.svg";
+        }
+        document.getElementById("mobileNav").classList.toggle("showMobileNav");
+      };
+    </script>
+  </body>
+</html>
