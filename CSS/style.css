@@ -118,3 +118,54 @@ nav a {
     align-items: center;
   }
 }
+/* header end */
+
+.hero {
+  background: url(../images/bannerBackground.svg) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.banner-info {
+  width: 45%;
+  font-family: Manrope-Regular;
+}
+.banner-little-title {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  > h3 {
+    font-size: 15px;
+    color: rgba(92, 134, 146, 1);
+    letter-spacing: 1.5px;
+  }
+}
+.banner-title {
+  font-family: PlayfairDisplay-Regular;
+  font-size: 60px;
+  line-height: 70px;
+}
+.banner-description {
+  font-size: 19px;
+  line-height: 32px;
+  margin: 20px 0;
+}
+.btn {
+  background-color: rgba(92, 134, 146, 1);
+  border: 1px solid rgba(92, 134, 146, 1);
+  font-weight: 800;
+  color: white;
+  font-size: 14px;
+  display: inline-block;
+  padding: 15px 20px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.btn:hover {
+  color: rgba(92, 134, 146, 1);
+  background-color: #ebf3f5;
+}
