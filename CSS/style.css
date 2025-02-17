@@ -152,11 +152,15 @@ nav a {
   line-height: 32px;
   margin: 20px 0;
 }
-.btn {
+.hero-btn {
   background-color: rgba(92, 134, 146, 1);
-  border: 1px solid rgba(92, 134, 146, 1);
-  font-weight: 800;
   color: white;
+  transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.btn {
+  border: 2px solid rgba(92, 134, 146, 1);
+  font-family: Manrope-Regular;
+  font-weight: 800;
   font-size: 14px;
   display: inline-block;
   padding: 15px 20px;
@@ -165,7 +169,44 @@ nav a {
   text-align: center;
   transition: 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
-.btn:hover {
+.hero-btn:hover {
   color: rgba(92, 134, 146, 1);
   background-color: #ebf3f5;
+}
+/* hero end */
+
+.section1 {
+  padding: 70px 0;
+}
+.procedure {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 30px;
+}
+.procedure .box {
+  padding: 10px;
+  > h3 {
+    font-family: PlayfairDisplay-Regular;
+    font-size: 26px;
+    line-height: 31px;
+  }
+  > p {
+    font-size: 18px;
+    color: rgba(85, 85, 85, 1);
+    line-height: 30px;
+    font-family: Manrope-Regular;
+    margin: 20px 0;
+  }
+  > a {
+    color: black;
+  }
+}
+.procedure .box img {
+  width: 100%;
+}
+.btn1:hover {
+  background-color: rgba(92, 134, 146, 1);
+  color: white !important;
 }
