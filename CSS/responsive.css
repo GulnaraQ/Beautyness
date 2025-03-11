@@ -129,6 +129,9 @@
   .testimonials .boxes {
     grid-template-columns: 1fr;
   }
+  .awesomeBenefits .boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -147,5 +150,8 @@
   }
   .section-title {
     font-size: 35px;
+  }
+  .awesomeBenefits .boxes {
+    grid-template-columns: 1fr;
   }
 }

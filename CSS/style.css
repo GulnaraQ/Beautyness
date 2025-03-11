@@ -400,3 +400,35 @@ nav a {
   line-height: 160%;
 }
 /* section4 end */
+
+.section5 {
+  padding: 70px 0;
+}
+.awesomeBenefits {
+  padding: 50px 0;
+}
+.awesomeBenefits .section-little-title,
+.awesomeBenefits .section-title {
+  text-align: center;
+}
+.awesomeBenefits .boxes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 30px;
+}
+.awesomeBenefits .box h3 {
+  font-size: 24px;
+  line-height: 120%;
+  font-family: PlayfairDisplay-Regular;
+  margin: 15px 0;
+}
+.awesomeBenefits .box p {
+  font-family: Manrope-Regular;
+  font-size: 18px;
+  color: rgba(85, 85, 85, 1);
+  line-height: 165%;
+  letter-spacing: 2%;
+}
+/* section5 end */
