@@ -335,3 +335,68 @@ nav a {
   margin-top: 20px;
 }
 /* section3 end */
+
+.section4 {
+  background-color: rgba(237, 245, 247, 1);
+  padding: 70px 0;
+}
+.testimonials {
+  padding: 50px 0;
+}
+.testimonials .boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-top: 30px;
+}
+.testimonials .section-little-title,
+.testimonials .section-title {
+  text-align: center;
+}
+.testimonials .boxes .box {
+  background-color: rgba(255, 255, 255, 1);
+  transition: 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  > p {
+    padding: 25px;
+    margin-bottom: 30px;
+    font-family: Manrope-Regular;
+    font-size: 18px;
+    line-height: 180%;
+  }
+}
+.testimonials .boxes .box:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+.james,
+.lieo {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(30, 44, 48, 1);
+  color: white;
+  padding: 20px 30px;
+}
+
+.james-left,
+.lieo-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.james-left h3,
+.lieo-left h3 {
+  font-size: 20px;
+  letter-spacing: -1%;
+  line-height: 160%;
+  font-family: PlayfairDisplay-Regular;
+}
+.james-left h4,
+.lieo-left h4 {
+  font-size: 14px;
+  letter-spacing: 3%;
+  font-family: Manrope-Regular;
+  line-height: 160%;
+}
+/* section4 end */

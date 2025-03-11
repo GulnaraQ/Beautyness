@@ -3,6 +3,8 @@
     max-width: 1140px;
   }
 }
+
+/* ------------------------------------------------------------------ */
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -20,6 +22,8 @@
     font-size: 16px;
   }
 }
+
+/* ------------------------------------------------------------------ */
 @media (max-width: 992px) {
   .container {
     max-width: 720px;
@@ -68,7 +72,17 @@
     font-size: 13px;
     margin-top: 10px;
   }
+  .james-left h3,
+  .lieo-left h3 {
+    font-size: 17px;
+  }
+  .james-left h4,
+  .lieo-left h4 {
+    font-size: 13px;
+  }
 }
+
+/* ------------------------------------------------------------------ */
 @media (max-width: 768px) {
   .container {
     max-width: 540px;
@@ -112,7 +126,12 @@
   .services .boxes .box:nth-child(4) {
     order: 2;
   }
+  .testimonials .boxes {
+    grid-template-columns: 1fr;
+  }
 }
+
+/* ------------------------------------------------------------------ */
 @media (max-width: 576px) {
   .container {
     max-width: 100%;
