@@ -206,6 +206,9 @@ nav a {
 .procedure .box img {
   width: 100%;
 }
+.btn1 {
+  color: black;
+}
 .btn1:hover {
   background-color: rgba(92, 134, 146, 1);
   color: white !important;
@@ -279,3 +282,56 @@ nav a {
   box-shadow: 30px -30px #87abb5;
   width: 100%;
 }
+/* section2 end */
+
+.section3 {
+  padding: 70px 0;
+}
+.services .section-little-title,
+.services .section-title {
+  text-align: center;
+}
+.services .section-title {
+  width: 60%;
+  margin: auto;
+}
+.services .boxes {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  > .box {
+    max-width: fit-content;
+  }
+}
+.services .box:nth-child(2) {
+  padding-left: 20px;
+}
+.services .box:nth-child(3) {
+  padding-right: 20px;
+}
+.services .box img {
+  width: 100%;
+}
+.services span {
+  font-size: 22px;
+  line-height: 28px;
+  font-family: PlayfairDisplay-Regular;
+  color: black;
+}
+.services span:first-child {
+  font-weight: 700;
+}
+.services p {
+  padding-bottom: 10px;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(85, 85, 85, 1);
+  font-family: Manrope-Regular;
+  margin: 15px 0;
+  border-bottom: 1px solid rgba(155, 183, 191, 0.5);
+}
+.services .box .btn1 {
+  margin-top: 20px;
+}
+/* section3 end */
