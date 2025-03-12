@@ -232,12 +232,14 @@ nav a {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  line-height: 154%;
   font-family: Manrope-Regular;
 }
 .section-title {
   font-family: PlayfairDisplay-Regular;
   font-size: 45px;
-  line-height: 58px;
+  line-height: 130%;
+  letter-spacing: -1%;
   margin: 10px 0 20px 0;
 }
 .section-description {
@@ -412,7 +414,7 @@ nav a {
   text-align: center;
 }
 .awesomeBenefits .boxes {
-  margin-top: 30px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-content: space-between;
@@ -432,3 +434,90 @@ nav a {
   letter-spacing: 2%;
 }
 /* section5 end */
+
+.section6 {
+  padding: 70px 0;
+  background-color: rgba(237, 245, 247, 1);
+}
+.flatDiscount {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 10%;
+}
+.offer {
+  margin-top: 30px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.offer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+  margin: auto;
+}
+.offer-info a {
+  font-size: 15px;
+  font-family: Manrope-Regular;
+  color: rgba(20, 20, 20, 1);
+  line-height: 150%;
+  letter-spacing: 1.5px;
+  > span {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 8%;
+  }
+}
+.offer-call,
+.offer-mail {
+  display: flex;
+  gap: 20px;
+}
+.offer-img {
+  background-color: #1e2c30;
+}
+.offer-img img {
+  height: 100%;
+  width: 100%;
+}
+.flatDiscount .rightBox {
+  padding: 50px 0;
+  background-color: white;
+  font-size: 18px;
+  font-family: Manrope-Regular;
+  transition: 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  > form {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+.flatDiscount .rightBox:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.flatDiscount input,
+.flatDiscount select,
+.flatDiscount textarea {
+  border: 1px solid rgba(92, 134, 146, 1);
+  font-family: Manrope-Regular;
+  padding: 15px;
+}
+.flatDiscount textarea {
+  resize: none;
+  height: 150px;
+}
+.btn2 {
+  background-color: rgba(92, 134, 146, 1);
+  color: white;
+}
+.btn2:hover {
+  background-color: white;
+  color: rgba(92, 134, 146, 1);
+}
+/* section6 end */
