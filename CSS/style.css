@@ -521,3 +521,50 @@ nav a {
   color: rgba(92, 134, 146, 1);
 }
 /* section6 end */
+
+.section7 {
+  padding: 70px 0;
+}
+.section7 .section-little-title,
+.section7 .section-title {
+  text-align: center;
+}
+.blogBoxes {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 30px;
+}
+.blogBoxes .box {
+  background-color: rgba(237, 245, 247, 1);
+  overflow: hidden;
+}
+.blogBoxes .box img {
+  width: 100%;
+  transition: 0.5s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.blogBoxes .box img:hover {
+  transform: scale(1.1);
+}
+.blogInfo {
+  padding: 20px 30px;
+  > h4 {
+    color: rgba(92, 134, 146, 1);
+    font-size: 13px;
+    font-family: Manrope-Regular;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+  }
+  > h3 {
+    font-size: 22px;
+    font-family: PlayfairDisplay-Regular;
+    margin: 10px 0;
+    line-height: 140%;
+  }
+}
+.ourBlog .blogBtn {
+  margin-top: 50px;
+  text-align: center;
+}
+/* section7 end */

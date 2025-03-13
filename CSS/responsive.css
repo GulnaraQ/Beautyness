@@ -135,6 +135,9 @@
   .flatDiscount {
     grid-template-columns: 1fr;
   }
+  .blogBoxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -155,6 +158,9 @@
     font-size: 35px;
   }
   .awesomeBenefits .boxes {
+    grid-template-columns: 1fr;
+  }
+  .blogBoxes {
     grid-template-columns: 1fr;
   }
 }
