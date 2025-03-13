@@ -80,6 +80,9 @@
   .lieo-left h4 {
     font-size: 13px;
   }
+  .footer-links {
+    grid-template-columns: repeat(3, auto);
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -138,6 +141,9 @@
   .blogBoxes {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer-links {
+    grid-template-columns: repeat(2, auto);
+  }
 }
 
 /* ------------------------------------------------------------------ */
@@ -162,5 +168,12 @@
   }
   .blogBoxes {
     grid-template-columns: 1fr;
+  }
+  .footer-links {
+    grid-template-columns: 1fr;
+  }
+  .footer-logo {
+    grid-template-columns: auto;
+    gap: 20px;
   }
 }

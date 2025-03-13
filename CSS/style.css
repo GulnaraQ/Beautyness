@@ -23,6 +23,7 @@ header {
   background-color: white;
   position: sticky;
   top: 0;
+  z-index: 5;
 }
 nav {
   display: flex;
@@ -568,3 +569,53 @@ nav a {
   text-align: center;
 }
 /* section7 end */
+
+.footer {
+  padding-top: 30px;
+  background-color: rgba(30, 44, 48, 1);
+}
+.footer-logo {
+  padding: 30px 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.footer-links {
+  padding: 30px 0 50px 0;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-between;
+  gap: 20px;
+  color: white;
+}
+.footer-links h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-family: PlayfairDisplay-Regular;
+}
+.footer-links ul li {
+  list-style-type: none;
+}
+.footer-links a,
+.footer-links ul,
+.footer-links table tr {
+  color: white;
+  font-size: 17px;
+  font-family: Manrope-Regular;
+  line-height: 30px;
+}
+.footer-links .box:nth-child(3) {
+  text-align: left;
+}
+.footer-links td {
+  padding-left: 10px;
+}
+.copyright {
+  background-color: rgba(17, 30, 34, 1);
+  text-align: center;
+  color: white;
+  font-family: Manrope-Regular;
+  font-size: 18px;
+  padding: 15px;
+}
